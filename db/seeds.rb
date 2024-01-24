@@ -7,3 +7,33 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Restaurant.create(
+  name: 'Di più',
+  address: 'promenade des anglais, Nice',
+  category: 'italian'
+)
+
+Restaurant.create(
+  name: 'sushi samba',
+  address: 'dubai, st regis the palm',
+  category: 'japanese'
+)
+
+Restaurant.create(
+  name: 'Safari',
+  address: 'cours saleya, Nice',
+  category: 'french'
+)
+
+Restaurant.create(
+  name: "l'antica da michele",
+  address: 'Napoli',
+  category: 'italian'
+)
+
+Restaurant.create(
+  name: 'La cantine',
+  address: 'emirates towers, dubai',
+  category: 'french'
+)

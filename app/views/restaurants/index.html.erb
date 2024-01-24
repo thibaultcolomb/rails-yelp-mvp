@@ -1,0 +1,16 @@
+<div class="row justify-content-center">
+  <div class="col-6">
+  <h1 class="my-3">Restaurants: </h1>
+  <div>
+    <ul>
+      <% @restaurants.each do |restaurant| %>
+        <li>
+            <%= link_to restaurant.name, restaurant_path(restaurant), class: "text-decoration-none"%>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+  </div>
+
+
+</div>
